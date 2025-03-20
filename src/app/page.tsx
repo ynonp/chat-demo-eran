@@ -40,7 +40,7 @@ export default function Page() {
         {messages.slice(1).map(message => (
           <ShowMessage key={message.id} message={message} />
         ))}
-        {status === "submitted" && <span className="loading-spinner"></span>}}        
+        {status === "submitted" && <span className="loading-spinner"></span>}   
       </div>
 
       {/* Input form */}
