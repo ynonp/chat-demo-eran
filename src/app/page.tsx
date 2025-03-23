@@ -31,7 +31,7 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-gray-900 flex flex-col p-4 font-mono">
       {/* Header with glitch effect */}
-      <h1 className="text-2xl text-green-400 mb-4 animate-glitch" data-text="SECURE_CHAT://BREACH_PROTOCOL">
+      <h1 className="text-2xl text-green-400 mb-4" data-text="SECURE_CHAT://BREACH_PROTOCOL">
         SECURE_CHAT://BREACH_PROTOCOL
       </h1>
 
